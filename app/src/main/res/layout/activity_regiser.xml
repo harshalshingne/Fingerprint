@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/_4sdp">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/with_fingerprint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="@string/with_fingerprint"/>
+
+            </RadioGroup>
+            <Button
+                android:id="@+id/sign_up_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:paddingBottom="@dimen/_16sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:text="@string/sign_up"
+                android:textAllCaps="true"
+                android:background="@color/colorAccent"
+                android:textStyle="bold" />
+
+</LinearLayout>
